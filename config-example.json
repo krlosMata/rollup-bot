@@ -1,0 +1,12 @@
+{
+  "matrix": {
+    "server": "https://matrix.org",
+    "user": "matrixUser",
+    "pass": "passphrase",
+    "roomId": "!rommId:matrix.org"
+  },
+  "rollup": {
+    "url": "https://zkrollup.iden3.net",
+    "lastAccount": 23
+  }
+}
