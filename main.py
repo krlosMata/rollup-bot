@@ -5,7 +5,7 @@ from matrixUtils import Cmatrix
 from rollupApi import CrollupApi
 from utils import *
 
-## Global variablesç
+## Global variables
 TIMEOUT = 3 * 60
 lastBatchSynched = 0
 
@@ -41,7 +41,7 @@ while True:
       sys.exit()
 
     # Check if batch has increased correctly
-    if ( lastBatch < lastBatchSynched ):
+    if ( lastBatch <= lastBatchSynched ):
       message += "MESSAGE: Last batch has not been increased properly"
       matrixClient.sendMessage(message)
       sys.exit()
